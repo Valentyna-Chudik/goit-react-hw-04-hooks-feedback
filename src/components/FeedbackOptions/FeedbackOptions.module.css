@@ -1,0 +1,30 @@
+.btnContainer {
+  margin: 0 0 20px 0;
+}
+
+.btnOption {
+  width: 90px;
+  margin: 5px;
+  padding: 10px;
+
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  background-color: #7bc1f0;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.btnOption:hover:first-child {
+  background: rgb(9, 214, 9);
+}
+
+.btnOption:hover:nth-child(2n) {
+  background: rgb(255, 230, 0);
+}
+
+.btnOption:hover:last-child {
+  background: rgb(230, 78, 78);
+}
