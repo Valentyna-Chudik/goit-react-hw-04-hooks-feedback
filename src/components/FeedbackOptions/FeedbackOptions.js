@@ -10,7 +10,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
           className={styles.btnOption}
           key={option}
           name={option}
-          onClick={onLeaveFeedback}
+          onClick={() => onLeaveFeedback(option)}
         >
           {option[0].toUpperCase() + option.slice(1)}
         </button>
